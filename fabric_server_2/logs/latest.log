@@ -1,0 +1,193 @@
+[00:05:34] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
+[00:05:34] [main/INFO]: Loading 84 mods:
+	- c2me 0.2.0+alpha.11.67
+	   |-- c2me-base 0.2.0+alpha.11.67
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.67
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.67
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.67
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.67
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.67
+	   |-- c2me-notickvd 0.2.0+alpha.11.67
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.67
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.67
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.67
+	   |-- c2me-opts-math 0.2.0+alpha.11.67
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.67
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.67
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.67
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.67
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.67
+	   |-- c2me-server-utils 0.2.0+alpha.11.67
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.67
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.67
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.67
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- carpet 1.4.128+v231205
+	- chunky 1.3.146
+	- fabric-api 0.97.0+1.20.4
+	   |-- fabric-api-base 0.4.37+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	   |-- fabric-biome-api-v1 13.0.17+78d798af4f
+	   |-- fabric-block-api-v1 1.0.17+3e2216cb4f
+	   |-- fabric-block-view-api-v2 1.0.5+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	   |-- fabric-command-api-v1 1.2.42+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.21+78d798af4f
+	   |-- fabric-commands-v0 0.2.59+df3654b34f
+	   |-- fabric-containers-v0 0.1.87+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.16+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.11+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	   |-- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	   |-- fabric-data-generation-api-v1 13.2.5+5c0133444f
+	   |-- fabric-dimensions-v1 2.1.62+78d798af4f
+	   |-- fabric-entity-events-v1 1.6.2+09fc25014f
+	   |-- fabric-events-interaction-v0 0.7.2+389931eb4f
+	   |-- fabric-events-lifecycle-v0 0.2.75+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	   |-- fabric-item-api-v1 2.3.0+bcdd12964f
+	   |-- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	   |-- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.40+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	   |-- fabric-loot-api-v2 2.1.10+78d798af4f
+	   |-- fabric-message-api-v1 6.0.6+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	   |-- fabric-models-v0 0.4.8+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.8+2e5ac5484f
+	   |-- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	   |-- fabric-particles-v1 1.1.8+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.21+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.20+ee30b13a4f
+	   |-- fabric-renderer-api-v1 3.2.5+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.5+78d798af4f
+	   |-- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	   |-- fabric-rendering-v0 1.1.57+df3654b34f
+	   |-- fabric-rendering-v1 3.2.1+6fd945a04f
+	   |-- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	   |-- fabric-screen-api-v1 2.0.18+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.56+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.18+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	   \-- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- ferritecore 6.0.3
+	- java 17
+	- krypton 0.2.6
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lazydfu 0.1.3
+	- lithium 0.12.1
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.4
+	- modernfix 5.17.0+mc1.20.4
+	- noisium 2.0.3+mc1.20.2-1.20.4
+	   \-- mixinextras 0.3.5
+	- starlight 1.1.3+fabric.f5dcd1a
+	- threadtweak 1.20.4-0.1.2
+	- viafabric 0.4.14+70-main
+	   |-- cotton-client-commands 1.1.0+1.15.2
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- viafabric-mc1204 0.4.14+70-main
+	   \-- viaversion 4.10.2
+	- vmp 0.2.0+beta.7.139
+	   \-- com_ibm_async_asyncutil 0.1.0
+[00:05:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/opc/MCServers/FaunaCordServer/fabric_server_2/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[00:05:34] [main/INFO]: Compatibility level set to JAVA_16
+[00:05:34] [main/INFO]: Compatibility level set to JAVA_17
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[00:05:35] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:05:35] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[00:05:35] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[00:05:35] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[00:05:35] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[00:05:35] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[00:05:35] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[00:05:35] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:05:35] [main/INFO]: Loaded configuration file for ModernFix 5.17.0+mc1.20.4: 54 options available, 5 override(s) found
+[00:05:35] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[00:05:35] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[00:05:35] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[00:05:35] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[00:05:35] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[00:05:35] [main/INFO]: Applying Nashorn fix
+[00:05:35] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[00:05:35] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[00:05:35] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[00:05:36] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[00:05:36] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[00:05:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[00:05:36] [main/INFO]: ThreadTweak config initialized
+[00:05:39] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:05:39] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:05:39] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[00:05:39] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[00:05:39] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[00:05:39] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[00:05:42] [main/INFO]: Vanilla bootstrap took 3750 milliseconds
+[00:05:42] [main/INFO]: Compression will use libdeflate (Linux aarch64), encryption will use OpenSSL 1.1.x (Linux aarch64)
+[00:05:42] [main/INFO]: Loading Noisium.
+[00:05:43] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[00:05:43] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:05:43] [main/INFO]: ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[00:05:43] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor!
+[00:05:43] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[00:05:43] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:05:43] [main/INFO]: Bypassed Mojang DFU
+[00:05:46] [main/INFO]: Loaded 7 recipes
+[00:05:46] [main/INFO]: Loaded 1271 advancements
+[00:05:46] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.724 ms
+[00:05:46] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[00:05:46] [Server thread/INFO]: Loading properties
+[00:05:46] [Server thread/INFO]: Default game type: CREATIVE
+[00:05:46] [Server thread/INFO]: Generating keypair
+[00:05:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:05:46] [Server thread/INFO]: Using epoll channel type
+[00:05:46] [Server thread/INFO]: Preparing level "world"
+[00:05:46] [Server thread/INFO]: Enforcing safe world random access
+[00:05:47] [Server thread/INFO]: Changing watch distance to 8
+[00:05:50] [Server thread/INFO]: Changing watch distance to 8
+[00:05:50] [Server thread/INFO]: Changing watch distance to 8
+[00:05:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:05:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:05:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:05:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:05:51] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:05:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:05:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:05:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:05:53] [Worker-Main-3/INFO]: Preparing spawn area: 4%
+[00:05:54] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[00:05:54] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[00:05:55] [Worker-Main-2/INFO]: Preparing spawn area: 44%
+[00:05:55] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[00:05:56] [Worker-Main-1/INFO]: Preparing spawn area: 91%
+[00:05:56] [Server thread/INFO]: Time elapsed: 6126 ms
+[00:05:56] [Server thread/INFO]: Done (9.389s)! For help, type "help"
+[00:05:56] [Server thread/WARN]: Dedicated server took 22.914 seconds to load
