@@ -212,3 +212,34 @@
 [00:42:33] [Server thread/INFO]: Time elapsed: 5666 ms
 [00:42:33] [Server thread/INFO]: Done (8.906s)! For help, type "help"
 [00:42:33] [Server thread/WARN]: Dedicated server took 23.221 seconds to load
+[00:51:09] [Server thread/INFO]: Made Sodiumz no longer a server operator
+[00:52:03] [User Authenticator #1/INFO]: UUID of player Sodiumz is ceab122b-63ef-46c1-a6bb-c7be9812dbe1
+[00:52:04] [Server thread/INFO]: Sodiumz[/71.185.25.116:58542] logged in with entity id 326 at (30.483014565721675, 98.97326159180484, -25.202315891503645)
+[00:52:04] [Server thread/INFO]: Sodiumz joined the game
+[00:52:04] [Server thread/INFO]: Async chunk loading for player Sodiumz completed
+[00:52:05] [Server thread/WARN]: Player Sodiumz joined with another carpet version: 1.4.141+v240429
+[00:52:08] [Server thread/INFO]: [Sodiumz: Sodiumz subscribed to tps.]
+[00:52:14] [Server thread/INFO]: <Sodiumz> test
+[00:52:56] [Server thread/INFO]: * Sodiumz die
+[00:57:47] [Server thread/INFO]: Role configuration successfully reloaded
+[00:59:29] [Server thread/INFO]: Role configuration successfully reloaded
+[00:59:34] [Server thread/INFO]: <Sodiumz> help
+[01:00:56] [Server thread/INFO]: Made Sodiumz a server operator
+[01:01:13] [Server thread/INFO]: [Sodiumz: Sodiumz unsubscribed from tps.]
+[01:01:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:01:23] [Server thread/INFO]: [A[A[A[A[B[C[B[B[B<--[HERE]
+[01:01:28] [Server thread/INFO]: Made Sodiumz no longer a server operator
+[01:01:51] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:01:51] [Server thread/INFO]: [A[A<--[HERE]
+[01:02:47] [Server thread/INFO]: Role configuration successfully reloaded
+[01:02:55] [Server thread/INFO]: [Sodiumz: Sodiumz subscribed to tps.]
+[01:14:53] [Server thread/INFO]: Config reloaded!
+[01:14:58] [Server thread/INFO]: Sodiumz lost connection: Disconnected
+[01:14:58] [Server thread/INFO]: Sodiumz left the game
+[01:15:07] [User Authenticator #2/INFO]: UUID of player Sodiumz is ceab122b-63ef-46c1-a6bb-c7be9812dbe1
+[01:15:07] [Server thread/INFO]: Sodiumz[/71.185.25.116:59128] logged in with entity id 2499 at (53.29019721635613, 95.75699045258881, -93.21219141662539)
+[01:15:07] [Server thread/INFO]: Sodiumz joined the game
+[01:15:07] [Server thread/INFO]: Async chunk loading for player Sodiumz completed
+[01:15:08] [Server thread/WARN]: Player Sodiumz joined with another carpet version: 1.4.141+v240429
+[01:19:56] [Server thread/INFO]: Sodiumz lost connection: Disconnected
+[01:19:56] [Server thread/INFO]: Sodiumz left the game

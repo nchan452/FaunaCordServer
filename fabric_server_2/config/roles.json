@@ -3,7 +3,10 @@
     "overrides": {
       "commands": {
         "help": "allow",
-        "role": "deny"
+	"whitelist add": "allow",
+	"log .*": "allow",
+	"sc status": "allow",
+        ".*": "deny"
       }
     }
   }
