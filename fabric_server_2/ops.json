@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "ceab122b-63ef-46c1-a6bb-c7be9812dbe1",
+    "name": "Sodiumz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
