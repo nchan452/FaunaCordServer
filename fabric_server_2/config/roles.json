@@ -1,11 +1,38 @@
 {
+  "bio": {
+    "level": 90,
+    "overrides": {
+      "permission_level": 2,
+      "command_feedback": true,
+      "commands": {
+        ".*": "allow"
+      }
+    }
+  },
+  "survivor": {
+    "level": 10,
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "Example Title ",
+          "color": "#ff0000"
+        }
+      }
+    }
+  },
   "everyone": {
     "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "Sapling ",
+          "color": "green"
+        }
+      },
       "commands": {
         "help": "allow",
-	"whitelist add": "allow",
-	"log .*": "allow",
-	"sc status": "allow",
+        "whitelist add": "allow",
+        "log .*": "allow",
+        "sc status": "allow",
         ".*": "deny"
       }
     }

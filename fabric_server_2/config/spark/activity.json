@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Sodiumz",
+      "uniqueId": "ceab122b-63ef-46c1-a6bb-c7be9812dbe1"
+    },
+    "time": 1716417740030,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/25qJ0YubFJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Sodiumz",
+      "uniqueId": "ceab122b-63ef-46c1-a6bb-c7be9812dbe1"
+    },
+    "time": 1716416242019,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/apDDfNx0fD"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Sodiumz",
+      "uniqueId": "ceab122b-63ef-46c1-a6bb-c7be9812dbe1"
+    },
+    "time": 1716415776045,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/yzFrtdk1I6"
+    }
+  }
+]

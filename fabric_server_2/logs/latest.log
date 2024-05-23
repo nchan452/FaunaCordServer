@@ -1,10 +1,10 @@
-[17:10:53] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
-[17:10:53] [main/WARN]: Warnings were found!
+[00:07:14] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
+[00:07:14] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.20.4+1.1 recommends any version of yet_another_config_lib_v3, which is missing!
 	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
  - Mod 'Debugify' (debugify) 1.20.4+1.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[17:10:53] [main/INFO]: Loading 95 mods:
+[00:07:14] [main/INFO]: Loading 95 mods:
 	- c2me 0.2.0+alpha.11.67
 	   |-- c2me-base 0.2.0+alpha.11.67
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.67
@@ -118,160 +118,105 @@
 	   \-- viaversion 4.10.2
 	- vmp 0.2.0+beta.7.139
 	   \-- com_ibm_async_asyncutil 0.1.0
-[17:10:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/opc/MCServers/FaunaCordServer/fabric_server_2/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[17:10:53] [main/INFO]: Compatibility level set to JAVA_16
-[17:10:53] [main/INFO]: Compatibility level set to JAVA_17
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[17:10:54] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:10:54] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[17:10:54] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[17:10:54] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[17:10:54] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[17:10:54] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[17:10:54] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 2 override(s) found
-[17:10:54] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:10:54] [main/INFO]: Loaded configuration file for ModernFix 5.17.0+mc1.20.4: 54 options available, 5 override(s) found
-[17:10:54] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[17:10:54] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[17:10:54] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[17:10:54] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[17:10:54] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[17:10:54] [main/INFO]: Applying Nashorn fix
-[17:10:54] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[17:10:55] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[17:10:55] [main/WARN]: Force disabled MC-135971 because it's conflicting with: carpet
-[17:10:55] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[17:10:55] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[17:10:55] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[17:10:55] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[17:10:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[17:10:55] [main/INFO]: ThreadTweak config initialized
-[17:10:58] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:10:58] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:10:58] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[17:10:58] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[17:10:58] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[17:10:59] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[17:11:02] [main/INFO]: Vanilla bootstrap took 4231 milliseconds
-[17:11:02] [main/INFO]: Enabled 33 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[17:11:02] [main/INFO]: Successfully Debugify'd your game!
-[17:11:02] [main/INFO]: Compression will use libdeflate (Linux aarch64), encryption will use OpenSSL 1.1.x (Linux aarch64)
-[17:11:02] [main/INFO]: Loading Noisium.
-[17:11:02] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
-[17:11:03] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
-[17:11:03] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:11:03] [main/INFO]: ViaVersion detected server version: 1.20.3-1.20.4 (765)
-[17:11:03] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor!
-[17:11:03] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[17:11:03] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:11:04] [main/INFO]: Bypassed Mojang DFU
-[17:11:04] [main/INFO]: Found new data pack player_roles, loading it automatically
-[17:11:05] [main/INFO]: No existing world data, creating new world
-[17:11:06] [main/INFO]: Loaded 7 recipes
-[17:11:07] [main/INFO]: Loaded 1271 advancements
-[17:11:07] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.885 ms
-[17:11:07] [Server thread/INFO]: Starting background profiler...
-[17:11:07] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[17:11:07] [Server thread/INFO]: Loading properties
-[17:11:07] [Server thread/INFO]: Default game type: CREATIVE
-[17:11:07] [Server thread/INFO]: Generating keypair
-[17:11:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:11:07] [Server thread/INFO]: Using epoll channel type
-[17:11:07] [Server thread/INFO]: Preparing level "world"
-[17:11:08] [Server thread/INFO]: Enforcing safe world random access
-[17:11:08] [Server thread/INFO]: Changing watch distance to 8
-[17:11:14] [Server thread/INFO]: Changing watch distance to 8
-[17:11:14] [Server thread/INFO]: Changing watch distance to 8
-[17:11:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:11:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:11:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:11:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:11:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:11:16] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[17:11:17] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[17:11:17] [Worker-Main-3/INFO]: Preparing spawn area: 1%
-[17:11:18] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[17:11:18] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[17:11:19] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[17:11:19] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[17:11:20] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[17:11:20] [Worker-Main-1/INFO]: Preparing spawn area: 5%
-[17:11:21] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[17:11:21] [Worker-Main-2/INFO]: Preparing spawn area: 7%
-[17:11:22] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[17:11:22] [Worker-Main-3/INFO]: Preparing spawn area: 9%
-[17:11:23] [Worker-Main-2/INFO]: Preparing spawn area: 11%
-[17:11:23] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[17:11:24] [Worker-Main-1/INFO]: Preparing spawn area: 13%
-[17:11:24] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[17:11:25] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[17:11:25] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[17:11:26] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[17:11:26] [Worker-Main-1/INFO]: Preparing spawn area: 20%
-[17:11:27] [Worker-Main-1/INFO]: Preparing spawn area: 21%
-[17:11:27] [Worker-Main-1/INFO]: Preparing spawn area: 22%
-[17:11:28] [Worker-Main-2/INFO]: Preparing spawn area: 24%
-[17:11:28] [Worker-Main-2/INFO]: Preparing spawn area: 26%
-[17:11:29] [Worker-Main-2/INFO]: Preparing spawn area: 27%
-[17:11:29] [Worker-Main-1/INFO]: Preparing spawn area: 29%
-[17:11:30] [Worker-Main-1/INFO]: Preparing spawn area: 31%
-[17:11:30] [Worker-Main-1/INFO]: Preparing spawn area: 32%
-[17:11:31] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[17:11:31] [Worker-Main-1/INFO]: Preparing spawn area: 36%
-[17:11:32] [Worker-Main-3/INFO]: Preparing spawn area: 38%
-[17:11:32] [Worker-Main-3/INFO]: Preparing spawn area: 40%
-[17:11:33] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[17:11:33] [Worker-Main-3/INFO]: Preparing spawn area: 44%
-[17:11:34] [Worker-Main-1/INFO]: Preparing spawn area: 46%
-[17:11:34] [Worker-Main-2/INFO]: Preparing spawn area: 48%
-[17:11:35] [Worker-Main-1/INFO]: Preparing spawn area: 50%
-[17:11:35] [Worker-Main-3/INFO]: Preparing spawn area: 52%
-[17:11:36] [Worker-Main-3/INFO]: Preparing spawn area: 54%
-[17:11:36] [Worker-Main-3/INFO]: Preparing spawn area: 56%
-[17:11:37] [Worker-Main-1/INFO]: Preparing spawn area: 59%
-[17:11:37] [Worker-Main-1/INFO]: Preparing spawn area: 62%
-[17:11:38] [Worker-Main-3/INFO]: Preparing spawn area: 64%
-[17:11:38] [Worker-Main-1/INFO]: Preparing spawn area: 66%
-[17:11:39] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[17:11:39] [Worker-Main-2/INFO]: Preparing spawn area: 72%
-[17:11:40] [Worker-Main-2/INFO]: Preparing spawn area: 75%
-[17:11:40] [Worker-Main-1/INFO]: Preparing spawn area: 77%
-[17:11:41] [Worker-Main-1/INFO]: Preparing spawn area: 80%
-[17:11:41] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[17:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 86%
-[17:11:42] [Worker-Main-2/INFO]: Preparing spawn area: 89%
-[17:11:43] [Worker-Main-2/INFO]: Preparing spawn area: 92%
-[17:11:43] [Worker-Main-3/INFO]: Preparing spawn area: 95%
-[17:11:44] [Worker-Main-1/INFO]: Preparing spawn area: 97%
-[17:11:44] [Server thread/INFO]: Time elapsed: 29824 ms
-[17:11:44] [Server thread/INFO]: Done (36.892s)! For help, type "help"
-[17:11:44] [Server thread/WARN]: Dedicated server took 52.736 seconds to load
-[17:14:13] [Server thread/INFO]: Stopping the server
-[17:14:13] [Server thread/INFO]: ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[17:14:13] [Server thread/INFO]: Stopping server
-[17:14:13] [Server thread/INFO]: Saving players
-[17:14:13] [Server thread/INFO]: Saving worlds
-[17:14:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:14:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:14:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:14:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:14:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:14:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:14:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:07:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/opc/MCServers/FaunaCordServer/fabric_server_2/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[00:07:14] [main/INFO]: Compatibility level set to JAVA_16
+[00:07:14] [main/INFO]: Compatibility level set to JAVA_17
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[00:07:15] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:07:15] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[00:07:15] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[00:07:15] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[00:07:15] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[00:07:15] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[00:07:15] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 2 override(s) found
+[00:07:15] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:07:15] [main/INFO]: Loaded configuration file for ModernFix 5.17.0+mc1.20.4: 54 options available, 5 override(s) found
+[00:07:15] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[00:07:15] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[00:07:15] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[00:07:15] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[00:07:15] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[00:07:15] [main/INFO]: Applying Nashorn fix
+[00:07:15] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[00:07:15] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[00:07:16] [main/WARN]: Force disabled MC-135971 because it's conflicting with: carpet
+[00:07:16] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[00:07:16] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[00:07:16] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[00:07:16] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[00:07:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[00:07:16] [main/INFO]: ThreadTweak config initialized
+[00:07:19] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:07:19] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:07:19] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[00:07:19] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[00:07:19] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[00:07:20] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[00:07:22] [main/INFO]: Vanilla bootstrap took 3966 milliseconds
+[00:07:22] [main/INFO]: Enabled 33 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[00:07:22] [main/INFO]: Successfully Debugify'd your game!
+[00:07:22] [main/INFO]: Compression will use libdeflate (Linux aarch64), encryption will use OpenSSL 1.1.x (Linux aarch64)
+[00:07:22] [main/INFO]: Loading Noisium.
+[00:07:23] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
+[00:07:23] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[00:07:23] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:07:23] [main/INFO]: ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[00:07:23] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor!
+[00:07:24] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[00:07:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:07:24] [main/INFO]: Bypassed Mojang DFU
+[00:07:26] [main/INFO]: Loaded 7 recipes
+[00:07:27] [main/INFO]: Loaded 1271 advancements
+[00:07:27] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.061 ms
+[00:07:27] [Server thread/INFO]: Starting background profiler...
+[00:07:27] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[00:07:27] [Server thread/INFO]: Loading properties
+[00:07:27] [Server thread/INFO]: Default game type: SURVIVAL
+[00:07:27] [Server thread/INFO]: Generating keypair
+[00:07:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:07:27] [Server thread/INFO]: Using epoll channel type
+[00:07:28] [Server thread/INFO]: Preparing level "world"
+[00:07:28] [Server thread/INFO]: Enforcing safe world random access
+[00:07:28] [Server thread/INFO]: Changing watch distance to 8
+[00:07:31] [Server thread/INFO]: Changing watch distance to 8
+[00:07:31] [Server thread/INFO]: Changing watch distance to 8
+[00:07:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:07:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:07:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:07:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:07:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:07:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:07:33] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[00:07:34] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[00:07:34] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[00:07:35] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[00:07:35] [Worker-Main-2/INFO]: Preparing spawn area: 31%
+[00:07:36] [Worker-Main-3/INFO]: Preparing spawn area: 50%
+[00:07:36] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[00:07:37] [Worker-Main-1/INFO]: Preparing spawn area: 91%
+[00:07:37] [Server thread/INFO]: Time elapsed: 6163 ms
+[00:07:37] [Server thread/INFO]: Done (9.493s)! For help, type "help"
+[00:07:37] [Server thread/WARN]: Dedicated server took 24.386 seconds to load
+[00:19:52] [spark-worker-pool-1-thread-1/INFO]: [⚡] Expected flag at position 0 but got 'stop' instead!
+[00:19:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:19:57] [Server thread/INFO]: [A[B<--[HERE]
+[00:19:59] [Server thread/INFO]: [⚡] Tick monitor started. Before the monitor becomes fully active, the server's average tick rate will be calculated over a period of 120 ticks (approx 6 seconds).
+[00:20:01] [spark-worker-pool-1-thread-2/INFO]: [⚡] Tick monitor disabled.
+[00:20:10] [spark-worker-pool-1-thread-3/INFO]: [⚡] Profiler has been cancelled.
